@@ -1,4 +1,3 @@
-# Makefile
 CXX = g++
 CXXFLAGS = -std=c++11 -Wall
 TARGET = array_project
