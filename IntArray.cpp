@@ -1,10 +1,9 @@
-// IntArray.cpp
 #include "IntArray.h"
-#include <algorithm> // для std::max
+#include <algorithm> 
 
 // Конструктор
 IntArray::IntArray(size_t sz) : size(sz) {
-    data = new int[size]{0}; // инициализация нулями
+    data = new int[size]{0}; 
 }
 
 // Копирующий конструктор
